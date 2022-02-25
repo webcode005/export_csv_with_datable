@@ -145,9 +145,11 @@
 </div>
     <script>
             
-    $(document).ready(function() {
-        $('#example').DataTable();
-    });
+            $(document).ready(function() {
+                    $('#example').DataTable( {
+                        "order": [[ 4, "desc" ]]
+                    } );
+                } );
 
     </script>
     <script> 
